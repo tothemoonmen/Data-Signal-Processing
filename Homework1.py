@@ -48,7 +48,6 @@ print(f"z1*z2= ({round(z1z2ProductReal, 2)} + j {round(z1z2Productimag , 2)})")
 # (c) z1/z2 in polar form using a complex exponential (angle in radians)
 z1z2quotientReal= (z1radius/z2radius)*np.cos(round(z1angleRadians-z2angleRadians,2))
 z1z2quotientImag= (z1radius/z2radius)*np.sin(round(z1angleRadians-z2angleRadians,2))
-print(z1radius/z2radius)
 print(f"z1/z2= ({round(z1z2quotientReal, 2)} + j {round(z1z2quotientImag, 2)})")
 
 
